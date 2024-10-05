@@ -1,0 +1,129 @@
+[
+    {
+      "id": 1,
+      "name": "REDMI 13C",
+      "price": 400,
+      "description": "Step into a world of extraordinary possibilities with the Redmi 13C – a smartphone that blends unmatched technology with creative brilliance. From capturing memories with artistic finesse to delivering immersive entertainment and powering through tasks effortlessly, this device is designed to complement your dynamic lifestyle. Redefine your smartphone experience with the Redmi 13C, where innovation meets imagination, and every feature is crafted to enhance your digital journey.",
+      "imageUrl": "../../assets/Images/redmi 13c black.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Motorola G34 5G (Ocean Green, 128 GB)  (8 GB RAM)",
+      "price": 600,
+      "description": "Look no further than the amazing Moto G34 5G smartphone, which is built to improve performance and add sophistication to your life. Powered by the LPDDR4X RAM and the Snapdragon 695 5G octa-core CPU, the Moto G34 5G offers the performance needed to fully utilise 5G networks. The Moto G34 5G sticks out with its slim, elegant, and light design. There's a vegan leather special edition for an added bit of refinement. Take incredibly clear and vibrant pictures with the sophisticated 50 MP Quad Pixel camera with Image Auto Enhance, the Quad pixel camera system helps you take stunning pictures even in dim lighting. Plus it comes with advanced 16 MP Selfie Camera.",
+      "imageUrl": "../../assets/Images/motorola g34 5g.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Apple iPhone 14 Plus (Blue, 128 GB)",
+      "price": 800,
+      "description": "Stay productive and improve your performance with the Super Retina XDR display that is comfortable for the eyes. Powered with a 12 MP main camera, enjoy taking pictures with friends and family. With a built-in rechargeable lithium-ion battery and equipped with the MagSafe wireless charging, you can charge your phone quickly up to 50 % in just half an hour by using a 20 W adapter. This phone is loaded with a horde of exciting features such as Siri, face ID, barometer, ambient light sensors etc., and is also resistant to dust and water as it is IP68 rated.",
+      "imageUrl": "../../assets/Images/i phone 14 plus blue.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Apple iPhone 15 Plus (Pink, 128 GB)",
+      "price": 1200,
+      "description": "Experience the iPhone 15 Plus – your dynamic companion. Dynamic Island ensures you stay connected, bubbling up alerts seamlessly while you're busy. Its durable design features infused glass and aerospace-grade aluminum, making it dependable and resistant to water and dust. Capture life with precision using the 48 MP Main Camera, perfect for any shot. Powered by the A16 Bionic Processor, it excels in computational photography and more, all while conserving battery life. Plus, it's USB-C compatible, simplifying your charging needs. Elevate your tech game with the iPhone 15 Plus – innovation at your fingertips. Goodbye cable clutter, hello convenience.",
+      "imageUrl": "../../assets/Images/i phone 15 pink.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Apple iPhone 15 Plus (Black, 128 GB)",
+      "price": 700,
+      "description": "Experience the iPhone 15 Plus – your dynamic companion. Dynamic Island ensures you stay connected, bubbling up alerts seamlessly while you're busy. Its durable design features infused glass and aerospace-grade aluminum, making it dependable and resistant to water and dust. Capture life with precision using the 48 MP Main Camera, perfect for any shot. Powered by the A16 Bionic Processor, it excels in computational photography and more, all while conserving battery life. Plus, it's USB-C compatible, simplifying your charging needs. Elevate your tech game with the iPhone 15 Plus – innovation at your fingertips. Goodbye cable clutter, hello convenience.",
+      "imageUrl": "../../assets/Images/i phone 15 black.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Apple iPhone 15 (Blue, 128 GB)",
+      "price": 900,
+      "description": "Experience the iPhone 15 – your dynamic companion. Dynamic Island ensures you stay connected, bubbling up alerts seamlessly while you're busy. Its durable design features infused glass and aerospace-grade aluminum, making it dependable and resistant to water and dust. Capture life with precision using the 48 MP Main Camera, perfect for any shot. Powered by the A16 Bionic Processor, it excels in computational photography and more, all while conserving battery life. Plus, it's USB-C compatible, simplifying your charging needs. Elevate your tech game with the iPhone 15 – innovation at your fingertips. Goodbye cable clutter, hello convenience.",
+      "imageUrl": "../../assets/Images/i phone 15 blue.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Apple iPhone 14 Plus (Midnight, 128 GB)",
+      "price": 1000,
+      "description": "Stay productive and improve your performance with the Super Retina XDR display that is comfortable for the eyes. Powered with a 12 MP main camera, enjoy taking pictures with friends and family. With a built-in rechargeable lithium-ion battery and equipped with the MagSafe wireless charging, you can charge your phone quickly up to 50 % in just half an hour by using a 20 W adapter. This phone is loaded with a horde of exciting features such as Siri, face ID, barometer, ambient light sensors etc., and is also resistant to dust and water as it is IP68 rated.",
+      "imageUrl": "../../assets/Images/i phone 13.jpg"
+    },
+    {
+      "id": 8,
+      "name": "REDMI 13C (Starfrost White, 128 GB)  (4 GB RAM)",
+      "price": 890,
+      "description": "Step into a world of extraordinary possibilities with the Redmi 13C – a smartphone that blends unmatched technology with creative brilliance. From capturing memories with artistic finesse to delivering immersive entertainment and powering through tasks effortlessly, this device is designed to complement your dynamic lifestyle. Redefine your smartphone experience with the Redmi 13C, where innovation meets imagination, and every feature is crafted to enhance your digital journey.",
+      "imageUrl": "../../assets/Images/redmi 13c white.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Motorola Edge 50 Fusion (Hot Pink, 128 GB)  (8 GB RAM)",
+      "price": 800,
+      "description": "Motorola edge 50 fusion is designed to capture its best shots at night with advanced features. The 50 MP main camera uses a powerful Sony LYTIA LYT-700C sensor to capture moments ultrafast with low noise even in dark environments. Who thought Night photography could get faster, accurate and focused. An advanced all-pixel focus technology on the Motorola Edge 50 Fusion elevates night photography by making it 32x more focused. While the Ultra Pixel sensor captures more light with larger 2.0µm pixels, the OIS automatically smoothens involuntary hand motion to give you a shake free video experience.",
+      "imageUrl": "../../assets/Images/motorolaa edge.jpg"
+    },
+    {
+      "id": 10,
+      "name": "vivo T3 Lite 5G (Majestic Black, 128 GB)  (6 GB RAM)",
+      "price": 500,
+      "description": "Experience unparalleled 5G speeds for instant media access and smooth online gaming. Powered by a cutting-edge processor, enjoy seamless gaming, expansive connectivity, and smooth performance. Capture stunning photos with a 50 MP Sony AI main camera and enhance portraits with bokeh effects. With 6 GB RAM + 6 GB Extended RAM, multitask effortlessly. The 90 Hz High Brightness display brings vivid visuals to life. An upgraded battery offers extended playtime, while IP64 Dust and Water Resistance ensures durability. Portrait mode provides various styles for personalized shots. The Funtouch 14 OS offers customization and enhanced image security, keeping your photos private in a secure vault.",
+      "imageUrl": "../../assets/Images/vivo t3 lite.jpg"
+    },
+    {
+      "id": 11,
+      "name": "vivo T3x 5G (Crimson Bliss, 128 GB)  (6 GB RAM)",
+      "price": 600,
+      "description": "A great phone with one of the best cameras",
+      "imageUrl": "../../assets/Images/vivo t3.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Motorola g64 5G (Pearl Blue, 256 GB)  (12 GB RAM)",
+      "price": 800,
+      "description": "A standard phone with a good balance of features",
+      "imageUrl": "../../assets/Images/motorola g64 5g.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Apple iPhone 14 Plus",
+      "price": 1100,
+      "description": "A large phone with one of the best screens",
+      "imageUrl": "../assets/Images/apple iphone 14 plus.jpg"
+    },
+    {
+      "id": 14,
+      "name": "SAMSUNG Galaxy S23 FE (Mint, 128 GB)  (8 GB RAM)",
+      "price": 900,
+      "description": "Epic moments are now accessible to all. Galaxy S23 FE opens the door for more people to experience the extraordinary. With its long-lasting power and stunning night shots, the phone becomes your gateway to lasting epic memories.",
+      "imageUrl": "../assets/Images/galaxt s23.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Samsung Galaxy S21 FE 5G with Snapdragon 888 (Olive, 256 GB)  (8 GB RAM)",
+      "price": 890,
+      "description": "In a world where speed is king, the Samsung Galaxy S21 FE reigns supreme, offering a seamless blend of power, storage, and style that's sure to delight even the most demanding smartphone aficionados. With its lightning-fast processor, spacious storage, stunning camera capabilities, and long-lasting battery, it's a device that elevates every aspect of your mobile experience. Say hello to a world where fast doesn't just get faster; it gets phenomenal.",
+      "imageUrl": "../assets/Images/galaxy s21.jpg"
+    },
+    {
+      "id": 16,
+      "name": "POCO M6 5G (Galactic Black, 128 GB)  (6 GB RAM)",
+      "price": 900,
+      "description": "Welcome to the future of smartphones – the POCO M6 5G, where innovation meets elegance, power, and speed. The POCO M6 5G is a statement of technological prowess, design excellence, and user-centric innovation. Embrace the future with a device that combines speed, storage, stunning visuals, and top-notch security. Elevate your mobile experience with the POCO M6 – where every feature is a testament to a new era in smartphone excellence.",
+      "imageUrl": "../assets/Images/poco m6.jpg"
+    },
+    {
+      "id": 17,
+      "name": "vivo T3 5G (Cosmic Blue, 256 GB)  (8 GB RAM)" ,
+      "price": 900,
+      "description": "The Vivo T3 5G: the pinnacle of speed, innovation, and creativity. Powered by the MediaTek Dimensity 7200 chip, it's a fast smartphone, scoring 734+ on AnTuTu. With the segment's first Sony IMX882 OIS sensor, clear shots are guaranteed, even in low light. Immerse yourself in the 16.94 cm (6.67) 120 Hz Ultra Vision AMOLED display, unlocking a cinematic experience. Dual stereo speakers and a 5000 mAh battery with 44 W FlashCharge ensure an immersive audiovisual journey that lasts. Capture every moment with ultra-stable 4K video and super night portrait mode. Plus, enjoy seamless multitasking with 8 GB RAM and memory booster features. Elevate your mobile experience with the Vivo T3 5G, where speed meets innovation.",
+      "imageUrl": "../assets/Images/vivo t3 5g.jpg"
+    },
+    {
+      "id": 18,
+      "name": "OnePlus Nord CE 3 Lite 5G (Chromatic Gray, 128 GB)  (8 GB RAM)",
+      "price": 800,
+      "description": "A standard phone with a good balance of features",
+      "imageUrl": "../assets/Images/one plus nord.jpg"
+    }
+  ]
+  

@@ -1,0 +1,145 @@
+
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  top: 0%;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f36;
+}
+.logo a{
+  color: #f36;
+  text-decoration: none;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.checkout-btn {
+  background-color: #ffffff;
+  color: #007bff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.checkout-btn img {
+  width: 20px;
+  margin-right: 5px;
+
+}
+.checkout-btn:hover{
+  border: 1px solid #007bff;
+ 
+}
+/* .container {
+ margin-top: 10%;
+} */
+
+
+.product-container {
+ margin-top: 10%;
+  
+}
+
+.product-image img {
+  width: 300px;
+  height: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  
+}
+
+.product-details h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.product-details p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+.price {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.add-to-cart{
+  background-color: #f36;
+  color: #ffffff;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-to-cart:hover{
+  color: #fff;
+  background-color: rgb(255, 17, 76);
+}
+.buy-now-btn{
+  font-size: medium;
+  background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buy-now-btn:hover{
+  color: #fff;
+  background-color: #005abb;
+}
+::ng-deep .notify-btn button {
+  font-size: medium;
+  background-color:#fff;
+    color: #000;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border:1px solid #000;
+    cursor: pointer;
+
+}
+  ::ng-deep .notify-btn button:hover {
+  background-color: #000;
+    color: #ffffff;
+    
+}
+
+@media (max-width: 767px) {
+  .navbar{
+    position: fixed;
+    top: 0%;
+   }
+   
+  .container {
+    width: 100%;
+  }
+  .product-container {
+    margin-top: 10%;
+     
+   }
+   
+}

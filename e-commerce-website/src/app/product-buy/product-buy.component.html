@@ -1,0 +1,83 @@
+<section class="body">
+  <header>
+  <app-navbar></app-navbar>
+  </header>
+  <div class="container mt-5 mb-5 ">
+    <div class="col-12 row mb-5 mx-auto product-listing">
+      <div class="col-7 col-md-7 col-sm-7 m-2 row bg-white  product-item" *ngIf="product">
+          <div class="col-md-5 h-auto w-auto product-image">
+            <img [src]="product.imageUrl" alt="product-img" />
+          </div>
+          <div class="col-md-7 p-6 bg-white product-detail">
+            <h2 class="fs-5">{{ product.name }}</h2>
+            <div class="price">
+              <span class="current-price">{{ product.price | currency }}</span>
+            </div>
+            <!-- <div class="service">
+              <p>{{ item.description }}</p>
+            </div> -->
+          </div>
+      </div>
+      <div class="col-md-4 mb-5  rounded-5 bg-white p-4 rounded-5 bg-light border ">
+        <h4>Shipping Prices</h4>
+        <div
+          class="shipping-item "
+          *ngFor="let shipping of shippingCosts | async"
+        >
+          <span
+            ><p>{{ shipping.type }}</p></span
+          >
+          <span
+            ><p>{{ shipping.price | currency }}</p></span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="col-12">
+        <div class="form-component">
+          <form
+            *ngIf="isFormVisible"
+            [formGroup]="checkoutForm"
+            (ngSubmit)="onSubmit()"
+            class="row g-3 "
+          >
+            <div class="col-md-5">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-control" formControlName = "name" />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Address</label>
+              <input type="text" class="form-control" formControlName = "address"/>
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">Phone no.</label>
+              <input type="number" class="form-control" formControlName = "phone" />
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">City</label>
+              <input type="text" class="form-control"  formControlName = "city"/>
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">State</label>
+              <select class="form-select">
+                <option selected disabled value="">Choose...</option>
+                <option>Default</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label class="form-label">Zip</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-12 text-center">
+              <button class="order-now-btn mt-3" type="submit" (ngSubmit)="onSubmit()">Order Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<app-footer></app-footer>
+</section>

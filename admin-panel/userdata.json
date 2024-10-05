@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "role": "Admin"
+    },
+    {
+      "id": 2,
+      "username": "john",
+      "password": "john123",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "role": "User"
+    },
+    {
+      "id": "3",
+      "username": "jane",
+      "password": "jane123",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "role": "User"
+    },
+    {
+      "id": "11",
+      "name": "test",
+      "email": "test@gmail.com",
+      "role": "user"
+    },
+    {
+      "name": "admin3",
+      "email": "admin3@example.com",
+      "role": "admin",
+      "id": "13"
+    },
+    {
+      "id": "15",
+      "username": "admin",
+      "password": "1234567",
+      "name": "admin3",
+      "email": "admin3@example.com",
+      "role": "admin"
+    },
+    {
+      "name": "New user",
+      "email": "newuser@gmail.com",
+      "role": "admin",
+      "id": "4"
+    },
+    {
+      "name": "test",
+      "email": "test@example.com",
+      "role": "User",
+      "id": "6"
+    },
+    {
+      "id": 8,
+      "username": "myname",
+      "password": "34567",
+      "name": "New user",
+      "email": "user@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": 9,
+      "username": "add",
+      "password": "123456",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "username": "xyz",
+      "password": "xyz123",
+      "name": "xyz",
+      "email": "xyz@gmail.com",
+      "role": "user"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<div class="dashboard-nav" >
+  <header>
+        <a routerLink = "/dashboard" class="brand-logo">
+         <img src="../../../assets/Images/logo.png" style="width: 80px; height: 80px; border-radius: 50%;" alt="">
+        </a>
+</header>
+<nav class="dashboard-nav-list">
+        <ul class="list-unstyled mt-5">
+
+                <li class="nav-item list" [ngClass]="navheading == 'Dashboard' ? 'li-active':''" [routerLink]="['/dashboard']">
+                        <a class="dashboard-nav-item "><i class="fas fa-home"></i>
+                        <span [ngClass]="navheading == 'Dashboard' ? 'text-at':'text-to '">Dashboard</span>
+                        </a>
+                </li>
+                <li class="nav-item " [ngClass]="navheading == 'Banner' ? 'li-active':''" [routerLink]="['/banner']">
+                        <a class="dashboard-nav-item "><i class="fas fa-tachometer-alt"></i>
+                                <span [ngClass]="navheading == 'Banner' ? 'text-at':'text-to '">Banner</span>
+                        </a>
+                </li>
+                <li class="nav-item" [ngClass]="navheading == 'Products' ? 'li-active':''"  [routerLink]="['/user-list']">
+                   <a class="dashboard-nav-item"><i class="fas fa-file-upload"></i> 
+                        <span [ngClass]="navheading == 'Dashboard' ? 'text-at':'text-to '">Products</span>
+                </a>
+                </li>
+                <li class="nav-item" [routerLink]="['/user-dashboard']">
+                        <a class="dashboard-nav-item"><i class="fas fa-user"></i> Users </a>
+                </li>
+        </ul>
+  </nav>
+</div>

@@ -1,0 +1,46 @@
+
+<section class="product-detail">
+    <header>
+     <app-navbar></app-navbar>
+    </header>
+    <div *ngIf="!productdetail">
+      <p>Product not found.</p>
+    </div>
+    <main>
+        <div class="container mt-5 mb-5">
+            <div class="row product-container">
+              <div class="col-12 mx-auto" *ngIf="productdetail">
+                <div class="row">
+                  <!-- Product Image -->
+                  <div class="col-12 col-md-6 h-auto product-image text-center">
+                    <img [src]="imageUrl + productdetail.image" alt="product-img" class="img-fluid shadow-sm" />
+                  </div>
+          
+                  <!-- Product Details -->
+                  <div class="col-12 col-md-6 product-details">
+                    <h2 class="fw-bold">{{ productdetail.name }}</h2>
+                    <div class="price mb-3">
+                      <h4 class=" fw-bold">{{ productdetail.price  }}</h4>
+                    </div>
+                    <div>
+                      <h5><b>Product Description</b></h5>
+                      <p class="text-muted">{{ productdetail.description }}</p>
+                      <h5 class="text-secondary">Available Quantity: {{ productdetail.quantity }}</h5>
+                    </div>
+                    <div class="row">
+
+                        <button type="button" class="col-12 mb-3 rounded-5 me-2 add-to-cart">
+                            Add to Cart
+                        </button>
+                        <button type="button" class="col-12 mb-3 rounded-5 buy-now-btn">
+                            Buy Now
+                        </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>          
+    </main>
+    <app-footer></app-footer>
+  </section>

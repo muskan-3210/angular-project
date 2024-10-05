@@ -1,0 +1,84 @@
+.dashboard {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .dashboard-app {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 2;
+    -webkit-flex-grow: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    margin-top: 84px;
+  }
+  
+  .dashboard-content {
+    -webkit-box-flex: 2;
+    -webkit-flex-grow: 2;
+    -ms-flex-positive: 2;
+    flex-grow: 2;
+    padding: 25px;
+  }
+  
+  @media (min-width: 900px) {
+    .dashboard-app {
+      margin-left: 238px;
+    }
+  
+    .dashboard-compact .dashboard-app {
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-content {
+      padding: 15px 0px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .dashboard-nav {
+      display: none;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      z-index: 1070;
+    }
+  
+    .dashboard-nav.mobile-show {
+      display: block;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .dashboard-nav header .menu-toggle {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .dashboard-toolbar {
+      left: 238px;
+    }
+  
+    .dashboard-compact .dashboard-toolbar {
+      left: 0;
+    }
+  }
+  

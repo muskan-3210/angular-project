@@ -1,0 +1,31 @@
+
+.page-content {
+  margin-left: 17rem;
+  transition: all 0.4s;
+}
+
+#content.active {
+  width: 100%;
+  margin: 0;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-danger {
+  color: red;
+}
+
+
+@media (max-width: 767px) {
+ 
+  #content {
+    width: 100%;
+    margin: 0;
+  }
+  #content.active {
+    margin-left: 17rem;
+    width: calc(100% - 17rem);
+  }
+}

@@ -1,0 +1,65 @@
+<section class="body">
+  <header>
+   <app-navbar></app-navbar>
+  </header>
+  <div *ngIf="!product">
+    <p>Product not found.</p>
+  </div>
+  <main>
+    <div class="container mt-5 mb-5">
+      <div class="col-12 col-md-12 row product-container">
+        <div class="col-12 col-md-9 row" *ngIf="product">
+          <div class="col-12 col-md-5 h-auto w-auto product-imag">
+            <img [src]="[product.imageUrl]" alt="product-img" />
+          </div>
+          <div class="col-12 col-md-8 column product-details">
+            <div class="col-md-12">
+              <h1>{{ product.name }}</h1>
+              <div class="price">
+                <h4>{{ product.price | currency }}</h4>
+              </div>
+              <div>
+                <h5><b>Product Description</b></h5>
+              </div>
+              <p>{{ product.description }}</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-3 h-auto bg-white p-4 rounded-5 bg-light border"
+        >
+          <h4>{{ product.price | currency }}</h4>
+          <p>
+            When your product goes on sale then we will notify you by
+            notification alert, the sale of product must be $700.
+          </p>
+          <button
+            type="button"
+            class="col-12 mb-3 rounded-5 add-to-cart"
+            (click)="addToCart(product)"
+          >
+            Add to Cart
+          </button>
+          <button
+            type="button"
+            class="col-12 mb-3 rounded-5 buy-now-btn"
+            [routerLink]="['/buy', product.id]"
+          >
+            Buy Now
+          </button>
+          <app-product-alerts
+            class="col-12 mb-3 rounded-5 notify-btn"
+            [product]="product"
+            (notify)="onNotify()"
+          ></app-product-alerts>
+        </div>
+      </div>
+    </div>
+  </main>
+  <app-footer></app-footer>
+</section>
+
+
+
+
+

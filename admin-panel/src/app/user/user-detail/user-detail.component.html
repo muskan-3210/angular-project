@@ -1,0 +1,36 @@
+<button class="btn btn-dark" (click)="back()">Back to List</button>
+<div class="container">
+    <h2>Product Details</h2>
+
+    <div *ngIf="productDetail; else loading">
+      <h2>{{ productDetail.name }}</h2>
+      <p><strong>Price:</strong> {{ productDetail.price }}</p>
+      <p><strong>Category:</strong> {{ productDetail.category }}</p>
+      <p><strong>Quantity:</strong> {{ productDetail.quantity }}</p>
+      <p><Strong>Description:</Strong>{{ productDetail.description }}</p>
+    </div>
+  
+    <ng-template #loading>
+      <p>Loading product details...</p>
+    </ng-template>
+  
+    <div *ngIf="errorMessage" class="error">
+      <p>{{ errorMessage }}</p>
+    </div>
+  
+    <!-- <div *ngIf="products">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ products.name }}</h5>
+          <p>{{products.price}}</p>
+          <p>{{products.category}}</p>
+          <p>{{products.quantity}}</p>
+        </div>
+      </div>
+    </div>
+  
+    <div *ngIf="!products">
+      <p>No data found</p>
+    </div> -->
+  </div>
+  

@@ -1,0 +1,23 @@
+
+  <header class='dashboard-toolbar shadow' id="sidebar">
+    <button type="button" class="btn btn-light bg-white rounded-pill"  (click)="toggleSidebar()">
+      <i class="fa fa-bars mr-2"></i>
+    </button>
+    <div class="nav-icons " >
+      <div class="dropdown dropdown-usrn">
+        <a href="" class="link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="https://via.placeholder.com/32/454752/ffffff?text=PH" alt="mdo" width="32" height="32" class="rounded-circle" />
+        </a>
+        <ul class="dropdown-menu text-small">
+          <li><a class="dropdown-item" href="">New project...</a></li>
+          <li><a class="dropdown-item" href="">Settings  </a></li>
+          <li><a class="dropdown-item" href=""> Profile</a></li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <button type="button" class="dropdown-item" (click)="logOut()"><i class="fas fa-sign-out-alt"></i>  Sign out</button>
+
+        </ul>
+      </div>
+    </div>
+  </header>

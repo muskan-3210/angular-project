@@ -1,0 +1,126 @@
+.product-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.product-heading::before,
+  .product-heading::after {
+    content: '';
+    width: 50px; /* Shorter width for the lines */
+    height: 4px;
+    background-color: #f36;
+    margin: 0 15px;
+  }
+  
+  .product-heading::before {
+    margin-right: 15px;
+  }
+  
+  .product-heading::after {
+    margin-left: 15px;
+  }
+  
+.product-card {
+    border: 1px solid #25252525;
+    border-radius: 16px;
+    padding: 16px;
+    /* margin-bottom: 16px; */
+    box-sizing: border-box;
+    box-shadow: 5px 5px 8px rgba(200 200 200, 0.8);
+  }
+  .product-info {
+    margin-top: 10px;
+  }
+  
+  .product-info h4 {
+    margin: 0;
+    font-size: 16px;
+    font-family: "Roboto";
+  }
+  .product-info a {
+    text-decoration: none;
+    color: black;
+  }
+  .product-info a:hover {
+    color: #f36;
+  }
+  .product-info p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  .old-price {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden !important;
+}
+
+  .card {
+    height: 100%;
+    border: none;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+/* Container that holds the image */
+.card-img-container {
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center;     /* Center the image vertically */
+  overflow: hidden;        /* Hide overflow for smooth zoom effect */
+  height: 250px; 
+}
+
+/* The image itself */
+.card-img-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;      /* Scale the image proportionally */
+  transition: transform 0.3s ease-in-out; /* Smooth zoom effect on hover */
+}
+
+/* Hover effect for zooming the image */
+.card-img-container a:hover img {
+  transform: scale(1.1); /* Scale the image on hover */
+}
+
+.view-all-button {
+  border: 1px solid #f36;
+  padding: 7px 20px;
+  background-color: transparent;
+  color: #f36;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  border-radius: 5px;
+}
+
+.view-all-button:hover {
+  border-color: transparent; /* Hide the full border on hover */
+}
+
+.view-all-button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #f36;
+  transition: width 0.3s ease;
+}
+
+.view-all-button:hover::after {
+  width: 100%; /* Show bottom border on hover */
+}

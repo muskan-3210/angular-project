@@ -1,0 +1,96 @@
+
+<button class="btn btn-dark" (click)="back()">Back to List</button>
+<!-- <div class="container">
+
+  <h2>Create Item</h2>
+  <form [formGroup]="productForm" (ngSubmit)="addUser()">
+    <div class="form-group mb-3">
+      <label for="id">ID</label>
+      <input type="number" id="id" class="form-control" formControlName="id" placeholder="id" />
+    </div>
+
+    <div class="form-group mb-3">
+      <label for="name">name</label>
+      <input type="text" id="name" class="form-control" formControlName="name" placeholder="name" />
+    </div>
+    
+    <div class="form-group mb-3">
+      <label for="price">Price</label>
+      <input type="number" id="price" class="form-control" formControlName = "price" placeholder="price"/>
+    </div>
+    
+    <div class="form-group mb-3">
+      <label for="quantity">quantity</label>
+      <input type="text" id="quantity" class="form-control" formControlName="quantity" placeholder="quantity" />
+    </div>
+    
+    <div class="form-group mb-3">
+      <label for="category">Category</label>
+      <input type="text" id="category" class="form-control" formControlName="category" placeholder="category" />
+    </div>
+
+    <div class="form-group mb-3">
+      <label for="role">Role</label>
+      <select id="role" class="form-control" formControlName = "role" name="role" required>
+        <option value="admin">Admin</option>
+        <option value="user">User</option>
+      </select>
+    </div>
+    
+    <button class="btn btn-primary" type="submit">Create</button>
+  </form>
+</div> -->
+
+<div class="container">
+  <h2>Create User</h2>
+  <form [formGroup]="productForm" (ngSubmit)="addUser()">
+    <div class="form-group mb-3">
+      <label for="name">Name</label>
+      <input type="text" id="name" class="form-control" formControlName="name" placeholder="Name" />
+    </div>
+  
+    <div class="form-group mb-3">
+      <label for="price">Price</label>
+      <input type="number" id="price" class="form-control" formControlName="price" placeholder="Price" />
+    </div>
+
+    <div class="form-group mb-3">
+      <label for="description">Description</label>
+      <textarea type="text" id="description" class="form-control" formControlName="description" placeholder="Enter the description of product...." ></textarea>
+    </div>
+  
+    <div class="form-group mb-3">
+      <label for="category">Category</label>
+      <select id="category" class="form-control" formControlName="category">
+        <option value="">Select Category</option>
+        <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+      </select>
+    </div>
+  
+    <div class="form-group mb-3">
+      <label for="quantity">Quantity</label>
+      <input type="number" id="quantity" class="form-control" formControlName="quantity" placeholder="Quantity" />
+    </div>
+
+    <div class="form-group mb-3">
+      <label for="status">Status</label>
+      <select id="status" class="form-control" formControlName="status">
+        <option value="">Select Status</option>
+        <option *ngFor="let status of statusCategories" [value]="status">{{ status }}</option>
+      </select>
+    </div>
+  
+    <div class="form-group mb-3">
+      <label for="image">Image</label>
+      <input type="file" id="image" class="form-control" (change)="uploadImage($event)" />
+    </div>
+  
+    <!-- Image preview (optional) -->
+    <div *ngIf="imagePreview">
+      <img [src]="imagePreview" alt="Image Preview" class="img-thumbnail mt-3" style="max-height: 200px;">
+    </div>
+  
+    <button class="btn btn-primary" type="submit">Create</button>
+  </form>
+  
+</div>

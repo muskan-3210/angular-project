@@ -1,0 +1,44 @@
+
+            <!-- <button class="wishlist-btn position-absolute top-0 end-0 p-2">
+              <i class="fas fa-heart"></i>
+            </button> -->
+              <!-- <div class="d-flex justify-content-between align-items-center mt-auto">
+                <span class="product-price">Price: {{ product.price }}</span>
+                <button class="btn add-to-cart">Add to Cart</button>
+              </div> -->
+         
+
+
+<section class="py-4 overflow-hidden">
+  <div class="container-fluid">
+    <div class="row h-100">
+      <div class="col-lg-7 mx-auto text-center mt-7">
+        <h5 class="fw-bold fs-3 fs-lg-5 lh-sm product-heading">{{ heading }} Products</h5>
+      </div>
+      <span class="float-end mb-4"  style="text-align: -webkit-right;">
+        <button class="view-all-button">View All</button>
+      </span>
+      <div class="col-12"> 
+         <div>
+              <div class="row gx-5 h-100 align-items-center">
+                <div  class=" col-sm-4 col-md-4 col-lg-2 mb-5 h-100" *ngFor="let product of popularProducts.slice(0,6)">
+                  <div class="card card-span h-100 rounded-3 " style="border: 1px solid rgba(219, 219, 219, 0.527);">
+                    <div class="card-img-container">
+                      <a [title]="product.name + ' details'" [routerLink]="['/product-detail', product.id]" target="_blank">
+                        <img class="img-fluid rounded-3 h-100" [src]="imageUrl + product.image" alt="product-image" class="img-fluid">
+                      </a>
+                    </div>
+                    <div class="card-body text-center d-flex flex-column">
+                      <h5 class="card-title fw-bold text-1000 text-truncate mb-1">{{ product.name }}</h5>
+                      <span class="product-price text-1000 fw-bold">Price: {{ product.price }}</span>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div><!-- end of .container-->
+
+ 
+</section>

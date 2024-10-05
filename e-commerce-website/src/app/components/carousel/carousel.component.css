@@ -1,0 +1,58 @@
+img {
+    height: 750px; 
+    object-fit: cover;
+  }
+
+  .user-svg {
+    fill: #f36; /* Bootstrap's blue color */
+    width: 40px; /* Increase the size */
+    height: 40px; /* Increase the size */
+    font-weight: bold; /* Bold styling */
+  }
+
+  .padding-large {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+
+  .section-title{
+    padding-bottom: 4em;
+  }
+  .lined-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .lined-heading::before,
+  .lined-heading::after {
+    content: '';
+    width: 50px; /* Shorter width for the lines */
+    height: 2px;
+    background-color: #f36;
+    margin: 0 15px;
+  }
+  
+  .lined-heading::before {
+    margin-right: 15px;
+  }
+  
+  .lined-heading::after {
+    margin-left: 15px;
+  }
+  
+  .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    background-color: #ccccccda; /* Default color */
+    border-radius: 50%;
+    margin: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #ffffff; /* Active color */
+  }
+  

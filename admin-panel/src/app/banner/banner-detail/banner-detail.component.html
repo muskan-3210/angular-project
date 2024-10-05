@@ -1,0 +1,16 @@
+<button class="btn btn-dark" (click)="back()">Back to List</button>
+
+<div class="container">
+    <h2>Banner Details</h2>
+
+    <div *ngIf="bannerDetail; else loading">
+      <p><strong>Category:</strong> {{ bannerDetail.status }}</p>
+    </div>
+  
+    <ng-template #loading>
+      <p>Loading product details...</p>
+    </ng-template>
+  
+    <div *ngIf="errorMessage" class="error">
+      <p>{{ errorMessage }}</p>
+    </div>

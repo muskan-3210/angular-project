@@ -1,0 +1,11 @@
+.bgimg{
+    background-image: url("../../../assets/Images/side-img\ 2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgimg{
+        @media only screen and (max-width: 990px){
+        display: none;
+    }
+}

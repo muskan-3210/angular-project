@@ -1,0 +1,149 @@
+
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  top: 0%;
+  position: fixed;
+  width: 100%;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f36;
+}
+.logo a{
+  color: #f36;
+  text-decoration: none;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.checkout-btn {
+  background-color: #ffffff;
+  color: #007bff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.checkout-btn img {
+  width: 20px;
+  margin-right: 5px;
+}
+.checkout-btn:hover{
+  border: 1px solid #007bff;
+ 
+}
+/* .container {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  margin-top: 4px;
+} */
+
+.product-listing {
+  margin-top: 80px;
+}
+
+/* .product-item {
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+.product-image img {
+  width: 150px;
+  height: auto;
+  /* border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px; */
+}
+
+/* .product-details {
+  margin-left: 20px;
+  width: 100%;
+} */
+
+.product-details h2 {
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+.price {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.additional-info {
+  margin-top: 10px;
+  color: #007185;
+}
+
+.buy-now{
+  background-color: #f36;
+  color: #ffffff;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buy-now:hover{
+  color: #fff;
+  background-color: rgb(255, 17, 76);
+}
+
+.remove-cart-item-btn{
+  font-size: medium;
+  background-color: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+.remove-cart-item-btn:hover{
+  color: #fff;
+  background-color: #007bff;
+}
+
+
+@media (max-width: 767px) {
+ .navbar{
+  position: fixed;
+  width: 100%;
+  margin-top: 0%;
+ }
+  .container {
+    width: 100%;
+  }
+  .footer .container{
+    display: list-item;
+  }
+  .product-container {
+    display:list-item;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+}

@@ -1,0 +1,17 @@
+
+  .percentage {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .bounce-rate {
+    font-size: 18px;
+    color: #666;
+  }
+  .user-svg {
+    fill: #007bff; /* Bootstrap's blue color */
+    width: 40px; /* Increase the size */
+    height: 40px; /* Increase the size */
+    font-weight: bold; /* Bold styling */
+  }

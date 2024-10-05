@@ -1,0 +1,50 @@
+.forget-text{
+    color: #f36;
+}
+
+.auth-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .auth-text::before,
+  .auth-text::after {
+    content: '';
+    width: 50px; /* Shorter width for the lines */
+    height: 2px;
+    background-color: #f36;
+    margin: 0 15px;
+  }
+  
+  .auth-text::before {
+    margin-right: 15px;
+  }
+  
+  .auth-text::after {
+    margin-left: 15px;
+  }
+  
+.login-btn{
+    background-color: #f36;
+    color: #ffffff;
+}
+
+.login-btn:hover{
+    background-color: #ffffff;
+    color: #f36;
+    border: 2px solid #f36;
+}
+
+.social-icons{
+    background-color: #ffffff;
+    color: #f36;
+    border: 2px solid #f36;
+}
+
+.social-icons:hover{
+    background-color: #f36;
+    color: #ffffff;
+}
