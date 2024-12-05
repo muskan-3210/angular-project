@@ -41,56 +41,59 @@
   </form>
 </div> -->
 
-<div class="container">
-  <h2>Create User</h2>
-  <form [formGroup]="productForm" (ngSubmit)="addUser()">
-    <div class="form-group mb-3">
-      <label for="name">Name</label>
-      <input type="text" id="name" class="form-control" formControlName="name" placeholder="Name" />
-    </div>
-  
-    <div class="form-group mb-3">
-      <label for="price">Price</label>
-      <input type="number" id="price" class="form-control" formControlName="price" placeholder="Price" />
-    </div>
-
-    <div class="form-group mb-3">
-      <label for="description">Description</label>
-      <textarea type="text" id="description" class="form-control" formControlName="description" placeholder="Enter the description of product...." ></textarea>
-    </div>
-  
-    <div class="form-group mb-3">
-      <label for="category">Category</label>
-      <select id="category" class="form-control" formControlName="category">
-        <option value="">Select Category</option>
-        <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
-      </select>
-    </div>
-  
-    <div class="form-group mb-3">
-      <label for="quantity">Quantity</label>
-      <input type="number" id="quantity" class="form-control" formControlName="quantity" placeholder="Quantity" />
-    </div>
-
-    <div class="form-group mb-3">
-      <label for="status">Status</label>
-      <select id="status" class="form-control" formControlName="status">
-        <option value="">Select Status</option>
-        <option *ngFor="let status of statusCategories" [value]="status">{{ status }}</option>
-      </select>
-    </div>
-  
-    <div class="form-group mb-3">
-      <label for="image">Image</label>
-      <input type="file" id="image" class="form-control" (change)="uploadImage($event)" />
-    </div>
-  
-    <!-- Image preview (optional) -->
-    <div *ngIf="imagePreview">
-      <img [src]="imagePreview" alt="Image Preview" class="img-thumbnail mt-3" style="max-height: 200px;">
-    </div>
-  
-    <button class="btn btn-primary" type="submit">Create</button>
-  </form>
-  
-</div>
+<section class="py-4 container">
+  <h2 class="add-text">Create Product</h2>
+  <div class="row justify-content-center">
+      <div class="col-12 col-md-6 p-4 mb-3 mx-auto ">
+        <form [formGroup]="productForm" (ngSubmit)="addUser()">
+          <div class="form-group mb-3">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control" formControlName="name" placeholder="Name" />
+          </div>
+        
+          <div class="form-group mb-3">
+            <label for="price">Price</label>
+            <input type="number" id="price" class="form-control" formControlName="price" placeholder="Price" />
+          </div>
+        
+          <div class="form-group mb-3">
+            <label for="description">Description</label>
+            <textarea type="text" id="description" class="form-control" formControlName="description" placeholder="Enter the description of product...." ></textarea>
+          </div>
+        
+          <div class="form-group mb-3">
+            <label for="category">Category</label>
+            <select id="category" class="form-control" formControlName="category">
+              <option value="">Select Category</option>
+              <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+            </select>
+          </div>
+        
+          <div class="form-group mb-3">
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" class="form-control" formControlName="quantity" placeholder="Quantity" />
+          </div>
+        
+          <div class="form-group mb-3">
+            <label for="status">Status</label>
+            <select id="status" class="form-control" formControlName="status">
+              <option value="">Select Status</option>
+              <option *ngFor="let status of statusCategories" [value]="status">{{ status }}</option>
+            </select>
+          </div>
+        
+          <div class="form-group mb-3">
+            <label for="image">Image</label>
+            <input type="file" id="image" class="form-control" (change)="uploadImage($event)" />
+          </div>
+        
+          <!-- Image preview (optional) -->
+          <div *ngIf="imagePreview">
+            <img [src]="imagePreview" alt="Image Preview" class="img-thumbnail mt-3" style="max-height: 200px;">
+          </div>
+        
+          <button class="btn btn-primary" type="submit">Create</button>
+        </form>
+      </div>
+  </div>
+</section>
